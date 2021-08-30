@@ -1,0 +1,56 @@
+# Primeira parte - Desafio
+
+Olá  Gleidson,
+
+Mais uma etapa alcançada! Vamos para o desafio?
+
+Abaixo esta o desafio, com ele podemos avaliar suas habilidades e competências para a função.
+
+Desenvolva um programa para um mercado que permita o cadastro dos produtos, dos tipos de cada produto, dos valores percentuais de imposto dos tipos de produtos, a tela de venda, onde será informado os produtos e quantidades adquiridos, o sistema deve apresentar o valor de cada item multiplicado pela quantidade adquirida e a quantidade pago de imposto em cada item, um totalizador do valor da compra e um totalizador do valor dos impostos.
+
+O sistema deve ser desenvolvido utilizando as seguintes tecnologias:  
+· PHP 7.4 
+· Banco de dados PostgreSQL versão 9.4    
+
+Quaisquer dúvidas sobre a especificação do programa a ser desenvolvido, podem ser questionados por e-mail. Evitar o uso de framework PHP.   
+
+Deverão ser enviados para análise:   
+· O sistema no formato ZIP para realizar o deploy no servidor de aplicação.   
+· O banco de dados utilizado.   
+· Os detalhes de configuração do banco de dados, como o nome de usuário e senha, o nome do alias do banco de dados e informações adicionais para validarmos o aplicativo.
+
+Você deve nos enviar o desafio em no máximo 5 dias, por favor.
+*Nos confirme o recebimento deste e-mail por favor.
+
+Atenciosamente,
+Gestão de Pessoas e Talentos.
+
+# Segunda parte - Questionário
+
+1. Por que você gostaria de trabalhar na SoftExpert?
+2. Quais as tecnologias e linguagens de programação (Java, PHP, JS, HTML, etc) conhece e grau de experiência em cada uma.
+3. Que projetos utilizou estas tecnologias?
+4. Qual é o seu grau de conhecimento com banco de dados (desenvolvimento de query SQL, modelagem de banco de dados, administração, etc)?
+5. Qual é a sua expectativa salarial?
+
+# Terceira parte - Resposta do Anderson
+
+Estou enviando novamente, segue: 
+
+    Atualmente tenho procurado empresas na região de Joinville, devido ao fim do meu contrato aqui na região. A Softexpert foi uma das que me chamou muito a atenção, devido ao sua grande variedade de soluções globalmente na área de sistemas. Isso acarretaria em um enorme aprendizado que com toda certeza irá agregar muito para minha carreira e agregando muito mais valor a Softexpert.
+
+Tenho conhecimento em:
+	PHP: Não atuo com PHP no momento, contudo tenho um projeto concluído com o TCC da graduação, segue github dele: https://github.com/sendreto/house-manager/tree/master/php
+
+Também está em andamento a Formação PHP na Alura, pois desde a graduação o PHP tem evoluído muito juntamente com seus frameworks.
+
+JAVA: Atualmente estou em um projeto próprio de uma API REST, onde utilizo  JAVA 8, com Spring Boot, e com ORM  JPA implementado com o Hibernate e com banco o Postgres, isso tudo orientado as boas práticas seguindo o SOLID e o Clean Code. Atualmente na prototipagem de alta definição responsivo com o Figma para assim seguir com o AngularJS.
+
+	HTML/CSS/Javascript: Utilizando no TCC da graduação, também utilizei algumas vezes em empresas por onde passei.
+
+
+Resposta incluída nas linguagens. 
+
+A nível de senioridade acredito que tanto nas linguagens de programação, SQL, modelagem e administração de banco me classifico com júnior.
+
+Minha expectativa é de R$3.000,00.

@@ -1,0 +1,6 @@
+Product (SoftExpert\Market\Tests\Unit\Domain\Entity\Product)
+ [x] Create new product with data set "success"
+
+Product Type (SoftExpert\Market\Tests\Unit\Domain\Entity\ProductType)
+ [x] Create new product type with data set "success"
+

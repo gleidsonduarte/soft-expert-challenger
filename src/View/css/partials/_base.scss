@@ -1,0 +1,36 @@
+/** BASE **/
+* {
+  font: 18px Roboto, sans-serif;
+  color: #444;
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.fa-button {
+  margin-right: 0.3rem;
+  color: white;
+}
+
+.fa-sign-out-alt {
+  transform: scaleX(-1);
+}
+
+.fa-edit {
+  color: #0269d9;
+  cursor: pointer;
+}
+
+.fa-trash-alt {
+  color: red;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 640px) {
+  .table-responsive {
+    overflow-x: hidden;
+  }
+}

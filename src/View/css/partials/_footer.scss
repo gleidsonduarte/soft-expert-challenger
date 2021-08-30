@@ -1,0 +1,16 @@
+/*** FOOTER ***/
+footer {
+  margin-top: 2.5rem;
+  padding: 2rem;
+  width: 100%;
+  background-color: #0a90ec;
+  display: flex;
+  justify-content: center;
+
+  #copyright {
+    margin: 0;
+    font-size: .8rem;
+    color: white;
+    text-align: center;
+  }
+}

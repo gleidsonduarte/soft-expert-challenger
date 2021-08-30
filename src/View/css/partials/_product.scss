@@ -1,0 +1,32 @@
+/** PRODUCT **/
+table {
+    text-align: center;
+    border: 2px solid lightgray;
+}
+
+table thead tr {
+    font-size: 20px;
+}
+
+table thead tr th {
+    font-weight: bolder;
+}
+
+table thead tr th:nth-child(3),
+table thead tr th:nth-child(5) {
+    width: 150px;
+}
+
+table thead tr th:nth-child(8),
+table thead tr th:nth-child(9) {
+    width: 190px;
+}
+
+table td {
+    padding: 1rem 0 !important;
+}
+
+.table-product {
+    margin-top: 2.5rem;
+    width: 90%;
+}

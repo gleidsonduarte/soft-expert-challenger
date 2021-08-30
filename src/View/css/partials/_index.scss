@@ -1,0 +1,66 @@
+/** INDEX **/
+#about-softexpert {
+  margin: .5rem;
+}
+
+#image-about-softexpert {
+  margin-bottom: .5rem;
+  width: 100%;
+}
+
+#list-about-softexpert ul {
+  padding: 0;
+}
+
+#list-about-softexpert li {
+  margin-top: 1rem;
+  height: 100%;
+  text-align: center;
+  list-style-type: none;
+}
+
+#list-about-softexpert h5 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 640px) {
+  #about-softexpert {
+    margin: 5rem;
+  }
+
+  #image-about-softexpert {
+    margin-right: 1rem;
+    float: left;
+    width: 30%;
+  }
+
+  #text-about-softexpert {
+    font-size: 1.2rem;
+    word-wrap: break-word;
+  }
+
+  #list-about-softexpert ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #list-about-softexpert li {
+    margin-top: 3rem;
+    margin-right: 3%;
+    height: 100%;
+    width: 30%;
+    text-align: center;
+    list-style-type: none;
+  }
+
+  #list-about-softexpert li:nth-child(3n) {
+    margin-right: 0;
+  }
+
+  #list-about-softexpert p {
+    font-size: 1rem;
+    text-align: justify;
+  }
+}

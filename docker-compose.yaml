@@ -1,0 +1,42 @@
+version: '3'
+
+services:
+  php:
+    container_name: softexpert-market-php
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    volumes:
+      - .:/var/www/html
+    ports:
+      - "8079:80"
+    restart: unless-stopped
+    networks:
+      softexpert_market:
+        ipv4_address: 172.28.1.1
+    depends_on:
+      - postgre
+
+  postgre:
+    container_name: softexpert-market-postgre
+    image: postgres:12.1
+    volumes:
+      - ./src/Database/migrations.sql:/docker-entrypoint-initdb.d/migrations.sql
+      - ./src/Database/seeds.sql:/docker-entrypoint-initdb.d/seeds.sql
+    ports:
+      - "5442:5432"
+    environment:
+      POSTGRES_DB: "softexpert"
+      POSTGRES_USER: "gleidson"
+      POSTGRES_PASSWORD: "softexpert@123456"
+    restart: unless-stopped
+    networks:
+      softexpert_market:
+        ipv4_address: 172.28.1.2
+
+networks:
+  softexpert_market:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.28.0.0/16

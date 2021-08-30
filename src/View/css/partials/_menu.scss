@@ -1,0 +1,46 @@
+/** MENU **/
+nav {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+
+  .img-softexpert {
+    height: 60px;
+    width: 200px;
+    background: url('../assets/softexpert.webp') no-repeat;
+  }
+
+  ul {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+
+    li {
+      margin-bottom: 20px;
+
+      a {
+        color: #FFF;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 640px) {
+  nav {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between !important;
+
+    ul {
+      margin: 10px 0 0 0;
+      padding: 0;
+      flex-direction: row;
+
+      li {
+        margin: 0 20px 0 0;
+        height: 45px;
+      }
+    }
+  }
+}

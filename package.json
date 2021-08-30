@@ -1,0 +1,20 @@
+{
+  "name": "gleidsonduarte-softexpert",
+  "version": "1.0.0",
+  "description": "Criação de uma pequena aplicação feita em PHP. Teste da empresa SoftExpert.",
+  "main": "index.js",
+  "authors": [
+    {
+      "name": "Gleidson Duarte",
+      "email": "work.gleidsonduarte@hotmail.com"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "bootstrap": "^4.5.3",
+    "datatables.net": "^1.10.23",
+    "datatables.net-bs4": "^1.10.23",
+    "jquery": "^3.5.1"
+  }
+}
